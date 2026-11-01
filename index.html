@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MX Series Experience</title>
+  <meta name="description" content="Interactive Logitech MX Series product showcase" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="topbar">
+    <button class="brand" data-scroll="hero" aria-label="Go to start">
+      <span class="brand-mark">L</span>
+      <span>MX Studio</span>
+    </button>
+    <nav aria-label="Main navigation">
+      <button class="nav-link active" data-scroll="products">Products</button>
+      <button class="nav-link" data-scroll="story">Experience</button>
+      <button class="nav-link" data-scroll="video">Videos</button>
+      <button class="nav-link" data-scroll="lucky-draw">Lucky Draw</button>
+    </nav>
+    <button class="kiosk-button" id="fullscreenButton" title="Enter fullscreen">Fullscreen</button>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">WORK BEYOND DESKS</p>
+        <h1>Meet the next level<br/>of <span>flow.</span></h1>
+        <p class="hero-text">Move effortlessly across devices, apps and ideas with the Logitech MX Series.</p>
+        <div class="hero-actions">
+          <button class="primary-button" data-scroll="products">Explore MX Series</button>
+          <button class="text-button" data-scroll="video">Watch experience <span>→</span></button>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="device-cluster">
+          <div class="product-shadow"></div>
+          <div class="hero-mouse"><div class="mouse-wheel"></div></div>
+          <div class="hero-keyboard">
+            <div class="key-row"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="key-row"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="key-row short"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">MX SERIES</p>
+          <h2>Tools for every way you work</h2>
+        </div>
+        <div class="filters" role="group" aria-label="Filter products">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="mouse">Mice</button>
+          <button class="filter" data-filter="keyboard">Keyboards</button>
+          <button class="filter" data-filter="creative">Creative</button>
+        </div>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card reveal" data-category="mouse">
+          <div class="card-top"><span class="badge">Best seller</span><button class="heart" aria-label="Save MX Master 3S">♡</button></div>
+          <div class="card-art mouse-art"><div class="mouse-body"><span></span></div></div>
+          <div class="card-info"><div><p class="product-type">PRECISION MOUSE</p><h3>MX Master 3S</h3></div><button class="round-button" data-product="MX Master 3S">+</button></div>
+        </article>
+
+        <article class="product-card reveal" data-category="keyboard">
+          <div class="card-top"><span class="badge purple">New</span><button class="heart" aria-label="Save MX Keys S">♡</button></div>
+          <div class="card-art keyboard-art"><div class="mini-keyboard"><span></span><span></span><span></span></div></div>
+          <div class="card-info"><div><p class="product-type">LOW-PROFILE KEYBOARD</p><h3>MX Keys S</h3></div><button class="round-button" data-product="MX Keys S">+</button></div>
+        </article>
+
+        <article class="product-card reveal" data-category="creative">
+          <div class="card-top"><span class="badge blue">Creative</span><button class="heart" aria-label="Save MX Creative Console">♡</button></div>
+          <div class="card-art console-art"><div class="dial"></div><div class="console-pad"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+          <div class="card-info"><div><p class="product-type">CREATIVE CONTROL</p><h3>MX Creative Console</h3></div><button class="round-button" data-product="MX Creative Console">+</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="story-panel reveal">
+        <div class="story-copy">
+          <p class="eyebrow">ONE FLOW. MULTIPLE DEVICES.</p>
+          <h2>Move between worlds,<br/>without breaking focus.</h2>
+          <div class="feature-list">
+            <button class="feature active" data-feature="flow"><span>01</span><div><strong>Flow between computers</strong><small>Move your cursor between devices in one continuous flow.</small></div></button>
+            <button class="feature" data-feature="transfer"><span>02</span><div><strong>Transfer files instantly</strong><small>Copy and paste text, images and files across screens.</small></div></button>
+            <button class="feature" data-feature="charge"><span>03</span><div><strong>Work for longer</strong><small>Recharge quickly and keep the focus going.</small></div></button>
+          </div>
+        </div>
+        <div class="flow-demo">
+          <div class="screen laptop"><div class="screen-ui"><i></i><i></i><i></i></div></div>
+          <div class="screen desktop"><div class="desktop-ui"><i></i><i></i><i></i><i></i></div></div>
+          <div class="cursor">↖</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video-section" id="video">
+      <div class="video-copy reveal">
+        <p class="eyebrow">SEE IT IN ACTION</p>
+        <h2>Experience the<br/>MX ecosystem</h2>
+        <p>Select a demo to play. Add your own local video file or a hosted presentation URL in the settings below.</p>
+      </div>
+      <div class="video-player reveal" id="videoPlayer">
+        <div class="video-placeholder" id="videoPlaceholder">
+          <button class="play-button" id="playButton" aria-label="Play demo"><span>▶</span></button>
+          <div><strong>Introducing Logitech MX Master 4</strong><small>Official product film</small></div>
+        </div>
+        <video id="demoVideo" controls hidden playsinline></video>
+        <iframe id="demoFrame" hidden title="MX product video" allow="fullscreen; picture-in-picture; encrypted-media"></iframe>
+      </div>
+      <div class="video-controls">
+        <button class="demo-chip active" data-video="demo">MX Master 4</button>
+        <button class="demo-chip" data-video="master">MX Master 4 Unboxing & Setup</button>
+        <button class="demo-chip" data-video="keys">MX Keys S</button>
+      </div>
+    </section>
+
+    <section class="lucky-section" id="lucky-draw">
+      <div class="lucky-card reveal">
+        <div class="lucky-copy">
+          <p class="eyebrow">MX EXPERIENCE CHALLENGE</p>
+          <h2>Try your lucky<br/>draw.</h2>
+          <p>Share your experience and join today's Logitech MX lucky draw.</p>
+          <div class="entry-count"><strong id="entryCount">0</strong><span>entries collected</span></div>
+          <a class="contact-link" href="https://github.com/saikirantechy" target="_blank" rel="noopener noreferrer">Want to connect? Follow @saikirantechy ↗</a>
+        </div>
+        <form class="lucky-form" id="luckyForm">
+          <label>Full name<input name="name" type="text" autocomplete="name" placeholder="Your name" required maxlength="80" /></label>
+          <label>Email ID<input name="email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="120" /></label>
+          <label>Phone number<input name="phone" type="tel" autocomplete="tel" placeholder="Phone number" required pattern="[0-9+ ()-]{7,20}" maxlength="20" /></label>
+          <label>Your feedback<textarea name="feedback" placeholder="What did you think of the MX experience?" required minlength="5" maxlength="500"></textarea></label>
+          <label class="consent"><input name="consent" type="checkbox" required /><span>I agree to use these details for the lucky draw.</span></label>
+          <button class="primary-button" type="submit">Enter lucky draw</button>
+          <p class="form-message" id="formMessage" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>MX Series Kiosk Experience</span>
+    <a href="https://github.com/saikirantechy" target="_blank" rel="noopener noreferrer">Built by saikirantechy</a>
+  </footer>
+
+  <dialog id="productDialog">
+    <button class="dialog-close" aria-label="Close">×</button>
+    <p class="eyebrow">MX SERIES</p>
+    <h2 id="dialogTitle">Product</h2>
+    <p id="dialogDescription"></p>
+    <button class="primary-button dialog-action">Book a demo</button>
+  </dialog>
+
+  <aside class="admin-panel" id="adminPanel" aria-hidden="true">
+    <button class="admin-toggle" id="adminToggle" aria-label="Open video settings">⚙</button>
+    <div class="admin-content">
+      <p class="eyebrow">DEMO SETTINGS</p>
+      <label>Local video <input id="videoFile" type="file" accept="video/*" /></label>
+      <label>Hosted video URL <input id="videoUrl" type="url" placeholder="https://..." /></label>
+      <button class="primary-button" id="applyVideo">Apply video</button>
+      <small>For offline events, use a local MP4. Local videos remain stable and do not expire.</small>
+    </div>
+  </aside>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
